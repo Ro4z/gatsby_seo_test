@@ -14,6 +14,15 @@ function Index() {
 
   return (
     <main>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>My Title</title>
+          <meta property="og:type" content="website" />
+         <meta property="og:title" content="안녕하세요, 타이틀 입니다." />
+          <meta property="og:description" content="이것은 디스크립션 인데요. 잘 나오나요?" />
+          <meta property="og:image" content="https://picsum.photos/1200/630" />
+          <link rel="canonical" href="http://mysite.com/example" />
+        </Helmet>
       <h1>Gatsby + API Route</h1>
       <h2>
         Deployed with{' '}
